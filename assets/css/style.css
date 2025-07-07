@@ -7,7 +7,7 @@
     + Header
         - Nav Style 1
         - Banner Section
-    + Hero Section
+    + About Section
 ------------------------------------------------------------------*/
 
 /* [ General ] */
@@ -26,6 +26,22 @@ body {
     font-weight: 400;
 }
 
+.section-title {
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.section-desc {
+    font-size: 18px;
+    color: #757575;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /*** Color CSS ***/
 .text-primary {
     color: #FD6E0A;
@@ -41,6 +57,10 @@ body {
 
 .dark-3 {
     color: #757575;
+}
+
+.secondery-bg {
+    background-color: #FFF8F3;
 }
 
 /*** Button CSS ***/
@@ -126,5 +146,20 @@ nav li a {
     width: 580px;
 }
 
-/* [ Hero Section ] */
+/* [ About Section ] */
 /*================================================== */
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-desc {
+    font-weight: 600;
+}
