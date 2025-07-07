@@ -8,6 +8,7 @@
         - Nav Style 1
         - Banner Section
     + About Section
+    + Skils Section
 ------------------------------------------------------------------*/
 
 /* [ General ] */
@@ -40,6 +41,10 @@ body {
 main {
     max-width: 1140px;
     margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
 }
 
 /*** Color CSS ***/
@@ -162,4 +167,20 @@ nav li a {
 
 .item-desc {
     font-weight: 600;
+}
+
+
+/* [ Skils Section ] */
+/*================================================== */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.skill {
+    width: 23.33%;
+    padding: 30px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
 }
