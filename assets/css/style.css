@@ -1,0 +1,55 @@
+/*------------------------------------------------------------------
+[Table of Contents]
+    + General
+        - Common CSS
+        - Color CSS
+    + Header
+        - Nav Style 1
+------------------------------------------------------------------*/
+
+/* [ General ] */
+/*================================================== */
+
+/*** Common CSS ***/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*** Color CSS ***/
+.text-primary {
+    color: #FD6E0A;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+/* [ Header ] */
+/*================================================== */
+
+/*** Nav Style 1 ***/
+nav {
+    display: flex;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
