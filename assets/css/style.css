@@ -6,6 +6,7 @@
         - Button CSS
     + Header
         - Nav Style 1
+    + Hero Section
 ------------------------------------------------------------------*/
 
 /* [ General ] */
@@ -79,3 +80,6 @@ nav li a {
     text-decoration: none;
     font-size: 20px;
 }
+
+/* [ Hero Section ] */
+/*================================================== */
