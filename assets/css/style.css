@@ -6,6 +6,7 @@
         - Button CSS
     + Header
         - Nav Style 1
+        - Banner Section
     + Hero Section
 ------------------------------------------------------------------*/
 
@@ -30,8 +31,16 @@ body {
     color: #FD6E0A;
 }
 
+.dark-1 {
+    color: #181818;
+}
+
 .dark-2 {
     color: #474747;
+}
+
+.dark-3 {
+    color: #757575;
 }
 
 /*** Button CSS ***/
@@ -49,6 +58,13 @@ body {
 
 /* [ Header ] */
 /*================================================== */
+
+/* Header */
+.header {
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 
 /*** Nav Style 1 ***/
 nav {
@@ -79,6 +95,35 @@ nav ul li:not(:last-child) {
 nav li a {
     text-decoration: none;
     font-size: 20px;
+}
+
+/*** Banner Section ***/
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.banner-content {
+    max-width: 580px;
+}
+
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-desc {
+    font-size: 18px;
+}
+
+.banner-profile-pic {
+    width: 580px;
 }
 
 /* [ Hero Section ] */
