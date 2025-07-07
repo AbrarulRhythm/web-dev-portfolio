@@ -9,6 +9,7 @@
         - Banner Section
     + About Section
     + Skils Section
+    + Resume Section
 ------------------------------------------------------------------*/
 
 /* [ General ] */
@@ -169,7 +170,6 @@ nav li a {
     font-weight: 600;
 }
 
-
 /* [ Skils Section ] */
 /*================================================== */
 .skills-container {
@@ -183,4 +183,42 @@ nav li a {
     padding: 30px;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
+}
+
+/* [ Resume Section ] */
+/*================================================== */
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+
+.resume-column-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.expriance-title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.expriance-sub-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.expriance-desc {
+    font-size: 18px;
+    color: #757575;
+    font-weight: 400;
+}
+
+.resume-container hr {
+    margin: 30px 0;
 }
